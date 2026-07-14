@@ -1,0 +1,17 @@
+{
+  "name": "citizen-energy",
+  "version": "0.1.0",
+  "description": "Property-level energy consumption, meter data, and utility-bill retrieval.",
+  "author": {
+    "name": "Soapbox",
+    "url": "https://soapbox.build"
+  },
+  "homepage": "https://github.com/soapboxbuild/citizen-energy-mcp",
+  "license": "Apache-2.0",
+  "mcpServers": {
+    "citizen-energy": {
+      "type": "http",
+      "url": "https://citizen-energy-mcp-production.up.railway.app/mcp"
+    }
+  }
+}
